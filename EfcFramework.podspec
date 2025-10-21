@@ -26,23 +26,6 @@ Pod::Spec.new do |s|
   # Evitar conflictos de sandbox y firmas
   s.preserve_paths = "EfcFramework.xcframework"
   s.static_framework = true
-
-  # 🧩 Script phase para copiar manualmente el framework (sin rsync)
-  s.script_phase = {
-    :name => 'Manual Copy EfcFramework',
-    :execution_position => :before_compile,
-    :script => <<-SCRIPT
-      echo "➡️ Copiando manualmente EfcFramework.framework..."
-      if [[ "${PLATFORM_NAME}" == "iphonesimulator" ]]; then
-        SRC="${PODS_ROOT}/EfcFramework/EfcFramework.xcframework/ios-arm64-simulator/EfcFramework.framework"
-      else
-        SRC="${PODS_ROOT}/EfcFramework/EfcFramework.xcframework/ios-arm64/EfcFramework.framework"
-      fi
-      DEST="${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/"
-      mkdir -p "$DEST"
-      cp -R "$SRC" "$DEST"
-      echo "✅ Copia completada en $DEST"
-    SCRIPT
-  }
+  
 end
 
