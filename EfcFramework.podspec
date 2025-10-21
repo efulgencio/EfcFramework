@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = "5.9"
 
   # Indica el origen del repositorio o la ruta local
-  s.source = { :git => "https://github.com/eduardofulgencio/EfcFramework.git", :tag => s.version.to_s }
+  s.source = { :git => "https://github.com/efulgencio/EfcFramework.git", :tag => s.version.to_s }
 
   # 👉 Aquí es donde enlazamos el framework binario
   s.vendored_frameworks = "EfcFramework.xcframework"
