@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "EfcFramework.xcframework"
 
   # Dependencias del sistema, si las hay
-  s.framework        = "Foundation"
+  # s.framework        = "Foundation"
 end
