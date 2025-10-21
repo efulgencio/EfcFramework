@@ -28,4 +28,17 @@ Pod::Spec.new do |s|
   # ✅ Evita la re-firma automática o conflictos de sandbox
   s.preserve_paths = "EfcFramework.xcframework"
   s.static_framework = true
+
+  # 🧩 Copia manual para evitar el error "Sandbox: rsync deny"
+  s.script_phase = {
+    :name => 'Manual Copy EfcFramework',
+    :script => <<-SCRIPT
+      echo "➡️ Copiando manualmente EfcFramework.framework..."
+      cp -R "${PODS_ROOT}/EfcFramework/EfcFramework.xcframework/ios-arm64-simulator/EfcFramework.framework" "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/"
+      echo "✅ Copia completada"
+    SCRIPT
+    ,
+    :execution_position => :before_compile
+  }
+
 end
