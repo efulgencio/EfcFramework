@@ -20,4 +20,12 @@ Pod::Spec.new do |s|
 
   # Dependencias del sistema, si las hay
   # s.framework        = "Foundation"
+    # ⚙️ Opcional pero recomendable: compatibilidad con bitcode y simulador/dispositivo
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386'
+  }
+
+  # ✅ Evita la re-firma automática o conflictos de sandbox
+  s.preserve_paths = "EfcFramework.xcframework"
+  s.static_framework = true
 end
