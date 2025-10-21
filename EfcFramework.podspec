@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
     EfcFramework contiene funciones y utilidades comunes compiladas en un framework binario (.xcframework).
   DESC
-  s.homepage         = "https://github.com/eduardofulgencio/EfcFramework"
+  s.homepage         = "https://github.com/efulgencio/EfcFramework"
   s.license          = { :type => "MIT" }
   s.author           = { "Eduardo Fulgencio" => "eduardofulgenciocomendeiro@gmail.com" }
 
@@ -13,9 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = "5.9"
 
   # Indica el origen del repositorio o la ruta local
-  # s.source           = { :git => "file:///Users/eofc/Projects/EfcFramework", :tag => s.version.to_s }
-  # 👇 Si el framework no es público, referencia local
-  s.source = { :path => "." }
+  s.source = { :git => "https://github.com/efulgencio/EfcFramework.git", :tag => s.version.to_s }
 
   # 👉 Aquí es donde enlazamos el framework binario
   s.vendored_frameworks = "EfcFramework.xcframework"
