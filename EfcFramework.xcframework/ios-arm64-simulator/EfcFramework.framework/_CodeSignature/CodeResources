@@ -16,6 +16,10 @@
 		<data>
 		NAX6keiFHv1TGNeNu0/uV5CqTNo=
 		</data>
+		<key>Modules/EfcFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		jhOfE0guSXx7FutMFImbjGwxpoQ=
+		</data>
 		<key>Modules/EfcFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		v4TYtklceog0L28JviRSF7yMBL8=
@@ -36,6 +40,26 @@
 		<data>
 		iUBZjgsDV1Qy+Y43oNG6Py3nqVM=
 		</data>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		v4TYtklceog0L28JviRSF7yMBL8=
+		</data>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		J33iL5AnIwCpqbdUN36yAQoqZHI=
+		</data>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		wK670ClC7R74vR/MIc6a/0zscp4=
+		</data>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		J33iL5AnIwCpqbdUN36yAQoqZHI=
+		</data>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		P1YKPhr18p86cmEoQvk+7PX5VsI=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Dr9cG6fODv1RDZhrTjp4yImHmoE=
@@ -55,6 +79,13 @@
 			<key>hash2</key>
 			<data>
 			XNk4zYxH5DdX6eC41arVRhEfOy7fXwrY+IsDj6wJNpY=
+			</data>
+		</dict>
+		<key>Modules/EfcFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CXEjYC6OsqMY1B+vATH4mHabANuxn1T1hjb/sAbYrXU=
 			</data>
 		</dict>
 		<key>Modules/EfcFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -90,6 +121,41 @@
 			<key>hash2</key>
 			<data>
 			kQoPgdGUSz6I/fXjELq+UAlKxZzDonVF6LRZXB2mL18=
+			</data>
+		</dict>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d8R5twYM6Hun6Pt+wnoQIYq0Om4nImAperi0rC6Imhk=
+			</data>
+		</dict>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M2tw6mfIMmZVP9c/MSefEhlgRpw8zp/MIXh7/aEmowY=
+			</data>
+		</dict>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i42R76zjDROYl3+38fl6VDw2AB1Gscw83xSPhJEAojQ=
+			</data>
+		</dict>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M2tw6mfIMmZVP9c/MSefEhlgRpw8zp/MIXh7/aEmowY=
+			</data>
+		</dict>
+		<key>Modules/EfcFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vw8XiMHyrmUG9xMZpAq5sP/OO73L5XbHjACDvAmt6as=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
