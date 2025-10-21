@@ -1,0 +1,6 @@
+framework module EfcFramework {
+  umbrella header "EfcFramework.h"
+  export *
+
+  module * { export * }
+}
