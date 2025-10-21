@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   # Indica el origen del repositorio o la ruta local
   s.source = { :git => "https://github.com/efulgencio/EfcFramework.git", :tag => s.version.to_s }
 
-  # 👉 Aquí es donde enlazamos el framework binario
-  s.vendored_frameworks = "EfcFramework.xcframework"
+    # Ruta al framework binario dentro del repo
+    s.vendored_frameworks = "EfcFramework/EfcFramework.xcframework"
 
   # Dependencias del sistema, si las hay
   s.framework        = "Foundation"
