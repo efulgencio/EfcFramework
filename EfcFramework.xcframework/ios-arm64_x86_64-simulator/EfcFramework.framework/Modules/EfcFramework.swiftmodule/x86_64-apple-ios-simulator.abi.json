@@ -46,25 +46,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "EfcHelper",
-                "printedName": "EfcFramework.EfcHelper",
-                "usr": "s:12EfcFramework0A6HelperV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12EfcFramework0A6HelperVACycfc",
-            "mangledName": "$s12EfcFramework0A6HelperVACycfc",
-            "moduleName": "EfcFramework",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
